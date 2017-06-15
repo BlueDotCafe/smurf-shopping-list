@@ -1,14 +1,15 @@
 #smurf {
   float: right;
-  height: 300px;
+  height: 250px;
 }
+
 
 
  .jumbotron h1 {
    font-weight: 100;
    color: rgba(41, 52, 80, 0.91);
    font-family: sans-serif;
-   font-size: 57pt;
+   font-size: 42pt;
    padding: 10px;
    border-radius: 20px;
 }
@@ -26,7 +27,7 @@
   width: 1110px;
 }
 
-#story {
+.story {
   font-family: sans-serif;
   font-weight: lighter;
   font-size: 17pt;
@@ -41,11 +42,11 @@ span {
   color: #63abcc;
 }
 
-#blanks {
+#smurf-form {
   background-color: #eee;
-  padding: 98px;
-  margin-left: 180px;
-  margin-right: 180px;
+  padding: 68px;
+  margin-left: 250px;
+  margin-right: 250px;
   margin-top: 40px;
   border-radius: 50px;
   color: #3a445e;
