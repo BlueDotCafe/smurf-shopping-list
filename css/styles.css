@@ -1,0 +1,74 @@
+#smurf {
+  float: right;
+  height: 300px;
+}
+
+
+ .jumbotron h1 {
+   font-weight: 100;
+   color: rgba(41, 52, 80, 0.91);
+   font-family: sans-serif;
+   font-size: 57pt;
+   padding: 10px;
+   border-radius: 20px;
+}
+
+ #header {
+  text-align: center;
+  font-size: 15pt
+}
+
+.love {
+  color: rgba(239, 155, 186, 0.82);
+}
+
+.stop {
+  width: 1110px;
+}
+
+#story {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 17pt;
+  color: rgba(41, 52, 80, 0.91);
+  width: 950px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+
+span {
+  color: #63abcc;
+}
+
+#blanks {
+  background-color: #eee;
+  padding: 98px;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 40px;
+  border-radius: 50px;
+  color: #3a445e;
+}
+
+
+label {
+  color: rgba(41, 52, 80, 0.91);
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 13pt;
+}
+
+input {
+  background-color: #dee7fc;
+}
+
+#button {
+  color:  rgba(41, 52, 80, 0.91);
+  background-color: #a9bfef;
+  font-family: sans-serif;
+  font-weight: normal;
+  padding: 10px;
+  display: block;
+  margin: auto;
+}
