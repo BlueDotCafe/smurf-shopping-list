@@ -3,8 +3,30 @@ $(document).ready(function() {
   $("form#smurf-form").submit(function() {
     event.preventDefault();
 
+    var items = [
+    $("#item1").val(),
+    $("#item2").val(),
+    $("#item3").val(),
+    $("#item4").val()
+  ];
 
+  items.sort();
 
+  var capItems = items.map(function(item) {
+      return item.toUpperCase();
+    })
+
+  capItems.forEach(function(item) {
+    var userInput = $("input#" + item).val();
+    $("." + item).text(userInput);
+  });
+
+  $(".story").show();
+
+  });
+});
+
+/*
     var a = $("#item1").val();
     var b = $("#item2").val();
     var c = $("#item3").val();
@@ -12,30 +34,18 @@ $(document).ready(function() {
 
     var items = [a, b, c, d];
 
-
     items.sort();
 
-    var capItems = items.map(function(items) {
-      return item.toUpperCase();
+    items.forEach(function(blank) {
+      var userInput = $("input#" + blank).val();
+      $("." + blank).toUpperCase().text(userInput);
     });
 
-    capItems.forEach(function(blank) {
-      var userInput = $("input#" + blank).val();
-      $("." + blank).text(userInput);
-    });
 
     $(".story").show();
 
   });
 });
-
-
-
-
-
-
-
-
 
 
 /* This site will take in "strings" via inputs and jQuery will
