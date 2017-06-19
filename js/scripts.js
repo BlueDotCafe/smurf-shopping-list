@@ -1,20 +1,13 @@
 $(document).ready(function() {
   $(".list").hide();
-  $("form#smurf-form").submit(function() {
+  $("#blanks form").submit(function() {
     event.preventDefault();
 
-    var items = [
-    $("#item1").val(),
-    $("#item2").val(),
-    $("#item3").val(),
-    $("#item4").val()
-  ];
+    var items = ["item1", "item2", "item3", "item4"].sort();
 
-  items.sort();
-
-  var capItems = items.map(function(item) {
-      return item.toUpperCase();
-    })
+   var capItems = items.map(function(item) {
+     return item.toUpperCase();
+   }
 
   capItems.forEach(function(item) {
     var userInput = $("input#" + item).val();
@@ -25,6 +18,11 @@ $(document).ready(function() {
 
   });
 });
+
+
+/*var capItems = items.map(function(item) {
+    return item.toUpperCase();
+  }
 
 /*
     var a = $("#item1").val();
